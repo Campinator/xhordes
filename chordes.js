@@ -20506,8 +20506,8 @@
 					mutelist: function(a) {
 						Y({msg: "Muted: " + window.muted||"Nobody is muted!", src: 'system'})
 					},
-					clear: function(((a).toLowerCase())) {
-						switch(a)
+					clear: function(a) {
+						switch(a.toLowerCase())
 							case "loot":
 								$(".chatmsg-loot").remove();
 							break;
